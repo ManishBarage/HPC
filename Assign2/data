@@ -1,0 +1,65 @@
+Class: Final Year (Computer Science and Engineering)
+Year: 2024-25		Semester: 1
+Course: High Performance Computing Lab 
+
+Practical No. 2
+Exam Seat No: 21510046
+Name: Saurabh Vijay Rajopadhye
+Batch: B2
+
+Title of practical: Study and implementation of basic OpenMP clauses
+Implement following Programs using OpenMP with C:
+    1. Vector Scalar Addition
+    2. Calculation of value of Pi
+Analyse the performance of your programs for different number of threads and Data size.
+
+Problem Statement 1: Vector Scalar Addition
+Screenshots:
+
+
+
+
+
+
+
+Information: 
+Analysis: As number of threads increase, time taken to perform the operations is reduced
+
+
+
+
+
+
+
+
+
+
+
+Problem Statement 2: Calculation of value of Pi
+
+Screenshots:
+
+
+
+
+
+
+
+
+
+
+
+
+Information: Pi calculation can be done by various methods. Here the method used is Monte Carlo method of π calculation. In this method, pi is calculated using random nuber generation. 
+
+Formula Used: 
+π = 4 * (no_of_points_in_circle / no_of_points_in_square)
+
+Analysis: As we increase number of points precision goes on increasing. The method relies on probabilistic sampling. As the sample size increases, the estimate of π converges to its true value.
+
+
+
+
+Github Link: 
+
+
